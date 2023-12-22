@@ -20,12 +20,13 @@ button{
 	border-radius : 3px ;
 }
 .table{
-	width : 100% ;
-	
+	width : 100% ;	
 }
-
-thead tr{
-	border-bottom : 1px solid black ;
+ table , th , td {
+		border : 1px solid black ;
+ }
+td,th {
+	width : 100px;
 }
 	
 thead th{
@@ -35,4 +36,7 @@ thead th{
 .delete {
     cursor : pointer;
     color : red;
+}
+span {
+	color : white ;
 }

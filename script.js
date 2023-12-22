@@ -6,7 +6,7 @@ function addBook() {
  var isbn = document.getElementById('isbn').value;
  if (title && author && isbn) {
      var tableBody = document.getElementById('book-list');
-     var newRow = tableBody.insertRow(tableBody.rows.length);
+     var newRow = tableBody.insertRow();
      
      var cell1 = newRow.insertCell(0);
      var cell2 = newRow.insertCell(1);
@@ -16,11 +16,11 @@ function addBook() {
      cell1.innerHTML = title;
      cell2.innerHTML = author;
      cell3.innerHTML = isbn;
-     cell4.innerHTML = '<span class="delete" onclick="deleteRow(this)">Clear</span>';
+     cell4.innerHTML = '<span class="delete" onclick="deleteRow(this)">X</span>';
      
 	 form.reset() ;
-          }
-        }
+ }
+}
 
  function deleteRow(element) {
      var row = element.parentNode.parentNode;
