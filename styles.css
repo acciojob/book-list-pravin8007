@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+/* /*  your css code here. If applicable */
+
+#bookForm{
+	display : flex ;
+	flex-direction : column ;
+}
+
+input{
+	border-radius : 3px ;
+	padding : 5px ;
+}
+button{
+	background-color : rgb(100,150, 255);
+	color : white ;
+	width : 100px ;
+	height : 30px;
+	border-radius : 3px ;
+}
+.table{
+	width : 100% ;
+	
+}
+
+thead tr{
+	border-bottom : 1px solid black ;
+}
+	
+thead th{
+/* 	width : 200px; */
+	text-align : left;
+	
+}
+#book-list tr{
+/* 	width : 100px; */
+	gap : 50px ;
+}
+.delete {
+            cursor: pointer;
+            color: red;
+}
+ */
