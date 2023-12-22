@@ -1,5 +1,8 @@
 /* /*  your css code here. If applicable */
-
+body{
+	display : flex ;
+	flex-direction : column ;
+}
 #bookForm{
 	display : flex ;
 	flex-direction : column ;
@@ -26,16 +29,10 @@ thead tr{
 }
 	
 thead th{
-/* 	width : 200px; */
 	text-align : left;
-	
 }
-#book-list tr{
-/* 	width : 100px; */
-	gap : 50px ;
-}
+
 .delete {
-            cursor: pointer;
-            color: red;
+    cursor : pointer;
+    color : red;
 }
- */

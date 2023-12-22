@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const form = document.getElementById("book-form")
+const form = document.getElementById("bookForm") ;
 function addBook() {
  var title = document.getElementById('title').value;
  var author = document.getElementById('author').value;
@@ -18,11 +18,7 @@ function addBook() {
      cell3.innerHTML = isbn;
      cell4.innerHTML = '<span class="delete" onclick="deleteRow(this)">Clear</span>';
      
-     // Clear input fields
-     // document.getElementById('title').value = '';
-     // document.getElementById('author').value = '';
-     // document.getElementById('isbn').value = 
-	 form.reset()
+	 form.reset() ;
           }
         }
 
